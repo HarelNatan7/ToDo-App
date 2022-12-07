@@ -63,9 +63,7 @@ function _createTodos() {
     gTodos = loadFromStorage(STORAGE_KEY)
     if (!gTodos || !gTodos.length) {
         gTodos = [
-            // _createTodo('Learn HTML'),
-            // _createTodo('Study CSS'),
-            // _createTodo('Master JS'),
+           
         ]
         saveToStorage(STORAGE_KEY, gTodos)
     }
